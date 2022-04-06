@@ -269,7 +269,7 @@ class KeyBERT:
                     [doc_embeddings[index]], doc_word_embeddings
                 )[0]
                 doc_keywords = [
-                    (doc_words[i], round(float(distances[i]), 4))
+                    (doc_words[i], round(float(distances[i]), 4), word_embeddings[i])
                     for i in distances.argsort()[-top_n:]
                 ]
                 keywords.append(doc_keywords)
