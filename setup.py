@@ -43,7 +43,7 @@ setup(
     description="KeyBERT performs keyword extraction with state-of-the-art transformer models.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/MaartenGr/keyBERT",
+    url="https://github.com/halolimat/keyBERT",
     keywords="nlp bert keyword extraction embeddings",
     classifiers=[
         "Programming Language :: Python",
